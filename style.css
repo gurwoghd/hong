@@ -1,0 +1,32 @@
+@font-face{
+    font-family: "IBM Plex Sans KR";
+    src: url("./IBMPlexSansKR-Medium.ttf");
+}
+
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    font-family: "IBM Plex Sans KR";
+    color: black;
+    /* position: fixed; */
+    /* z-index: 1; */
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* position: absolute; */
+    /* z-index: 2; */
+}
+.two:hover{
+    background-color: green;
+}
+input:checked + div{
+    background-color: black;
+}
+h1{
+    font-family: "IBM Plex Sans KR";
+    font-weight: 10;
+    font-size: 100px;
+}
